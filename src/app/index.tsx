@@ -1,9 +1,7 @@
 import { useEffect } from "react";
-import { Text, View, SafeAreaView } from "react-native";
 import { setStatusBarStyle } from "expo-status-bar";
 
-import SignIn from "./SignIn";
-
+import Routes from '../routes/index'
 
 export default function Index() {
   useEffect(() => {
@@ -14,8 +12,7 @@ export default function Index() {
 
 
   return (
-    <View>
-      <SignIn/>
-    </View>
+
+          <Routes/>
   );
 }
