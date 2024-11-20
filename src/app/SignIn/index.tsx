@@ -1,7 +1,12 @@
-import React, {useState} from 'react';
+import React, {useContext, useState} from 'react';
 import { Text, View, Image, TextInput, TouchableOpacity, ScrollView } from 'react-native';
 
+import {AuthContext} from '../../contexts/AuthContext'
+
 export default function SignIn() {
+
+    const {user} = useContext(AuthContext)
+
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -10,6 +15,7 @@ export default function SignIn() {
         if(email === '' || password === ''){
             return;
         }
+        
         console.log("Email Digitado " + email)
     }
 
@@ -27,6 +33,7 @@ export default function SignIn() {
               
                <Text className='font-bold text-3xl mb-1 ' >Pizzaria <Text className='text-red-700' >Chef</Text> </Text>
                <Text className='font-medium text-zinc-500' >Acesse a plataforma para gerenciar sua pizzaria.</Text>
+         
     
                
                 <View className='w-full  flex flex-col items-center gap-4 mt-6 py-3' >

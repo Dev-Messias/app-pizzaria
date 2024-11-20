@@ -1,7 +1,9 @@
 import { useEffect } from "react";
 import { setStatusBarStyle } from "expo-status-bar";
 
-import Routes from '../routes/index'
+import Routes from '../routes/index';
+
+import { AuthProvider } from '../contexts/AuthContext'
 
 export default function Index() {
   useEffect(() => {
@@ -13,6 +15,8 @@ export default function Index() {
 
   return (
 
-          <Routes/>
+    <AuthProvider>
+      <Routes />
+    </AuthProvider>
   );
 }
