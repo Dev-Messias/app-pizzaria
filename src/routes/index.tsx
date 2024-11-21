@@ -1,16 +1,18 @@
-import React from 'react';
+import React, {useContext} from 'react';
 
 
 import AppRoutes from './app.routes';
 import AuthRoutes from './auth.routes';// rotas publicas
 import { View, ActivityIndicator } from 'react-native';
 
+import { AuthContext } from '../contexts/AuthContext';
+
 
 //controlar qual rota sera exibida
 function Routes() {
 
-    const isAuthenticated = false;
-    const loading = false;
+    const {isAuthenticated, loading} = useContext(AuthContext)
+   
 
     if(loading){
         return(
