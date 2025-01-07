@@ -1,50 +1,64 @@
-# Welcome to your Expo app 👋
+# Pizzaria-Chef
+ 🚀 Este repositório contém o código-fonte de um sistema completo para gerenciar pedidos de uma pizzaria, desenvolvido com Next.js para a interface de usuário, React-native para o mobile e Node.js com TypeScript para o backend. O sistema permite que garçons realizem pedidos diretamente das mesas, otimizando o fluxo de trabalho do restaurante e garantindo um atendimento rápido e eficiente.<br><br>
+<div>
+    Repositório:
+    <br>
+     <ul>
+         <li><a href="https://github.com/Dev-Messias/pizzaria-chef" target="_blank" >
+      💻 Front-End
+    </a>
+         <li><a href="https://github.com/Dev-Messias/apiPizza" target="_blank"  >
+      💻 Back-End
+    </a></li>
+     </ul>
+   
+</div><br>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![git-tela](https://github.com/user-attachments/assets/cc8b7330-2a63-4895-8402-2ef0a001412f)
 
-## Get started
+> A Pizzaria do Chef foi um projeto desenvolvido em conjunto durante o curso Fábrica de Aplicativos, onde apliquei meus conhecimentos em front-end para aprimorar o design do sistema, adicionando um toque pessoal e melhorias visuais. O projeto me permitiu combinar aprendizado com prática, enquanto contribuía para a criação de uma interface moderna e funcional.
 
-1. Install dependencies
+ ## Tecnologias/Ferramentas Utilizadas :
 
-   ```bash
-   npm install
-   ```
+ <div style="display: inline_block" >
+    <img align="center" alt="" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+    <img align="center" alt="" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+    <img  align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+    <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/axios/axios-plain.svg" />
+    <img align="center" alt="Nodejs" height="30" width="40"  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+    <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+    <img align="center" alt="React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+</div>
 
-2. Start the app
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+## Como executar o projeto:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Clone do repositório :
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+$ git clone https://github.com/Dev-Messias/app-pizzaria.git
 
-## Learn more
+```
+> Acesse a página utilizando `cd app-pizzaria`
 
-To learn more about developing your project with Expo, look at the following resources:
+2. Instale as dependências :
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```
 
-## Join the community
+$ npm install
 
-Join our community of developers creating universal apps.
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+3. Iniciando o projeto :
+
+```
+
+$ npx expo start
+
+```
+
+
+ 
